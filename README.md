@@ -12,6 +12,7 @@ For each video file in a folder:
 - Uses `ffmpeg` stream copy (`-c copy`) so video/audio are NOT re-encoded
 Here are the upsides:
 
+
 ✅ **No quality loss** (no re-encoding)  
 ✅ **Fast** (remux + subtitle mux)  
 ✅ **One subtitle per video** (correct 1:1 matching)  
