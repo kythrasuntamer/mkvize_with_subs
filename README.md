@@ -10,6 +10,15 @@ For each video file in a folder:
 - Writes an output MKV to `OutputDir` (default: `<VideoDir>\mkvized_out\`)
 - If a matching `.srt` exists, embeds it as a subtitle track
 - Uses `ffmpeg` stream copy (`-c copy`) so video/audio are NOT re-encoded
+Here are the upsides:
+✅ **No quality loss** (no re-encoding)  
+✅ **Fast** (remux + subtitle mux)  
+✅ **One subtitle per video** (correct 1:1 matching)  
+✅ **Batchable** (entire seasons / libraries)
+
+Also, We use Soft subs so that they can be turned off or you can add multiple languages. 
+This allows you to automate attaching subtitles to an entire season of episodes  while you sleep.
+
 
 ## What it does NOT do
 - ❌ It does **not** burn subtitles into the video.
@@ -18,12 +27,7 @@ For each video file in a folder:
 ## Requirements
 - Windows PowerShell 5.1+ or PowerShell 7+
 - `ffmpeg` in your PATH
+- 
 Install ffmpeg (Windows):
 ```powershell
 winget install Gyan.FFmpeg
-
-Here are the advantages:
-✅ **No quality loss** (no re-encoding)  
-✅ **Fast** (remux + subtitle mux)  
-✅ **One subtitle per video** (correct 1:1 matching)  
-✅ **Batchable** (entire seasons / libraries)
