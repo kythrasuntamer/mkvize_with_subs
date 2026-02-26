@@ -11,13 +11,13 @@ For each video file in a folder:
 - If a matching `.srt` exists, embeds it as a subtitle track
 - Uses `ffmpeg` stream copy (`-c copy`) so video/audio are NOT re-encoded
 Here are the upsides:
+
 ✅ **No quality loss** (no re-encoding)  
 ✅ **Fast** (remux + subtitle mux)  
 ✅ **One subtitle per video** (correct 1:1 matching)  
 ✅ **Batchable** (entire seasons / libraries)
+✅ ** Use's Soft Subtitling so that they're optional and allowing you to toggle between multiple languages.
 
-Also, We use Soft subs so that they can be turned off or you can add multiple languages. 
-This allows you to automate attaching subtitles to an entire season of episodes  while you sleep.
 
 
 ## What it does NOT do
