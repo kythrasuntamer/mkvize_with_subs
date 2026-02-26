@@ -16,7 +16,7 @@ Here are the upsides:
 ✅ **No quality loss** (no re-encoding)  
 ✅ **Fast** (remux + subtitle mux)  
 ✅ **One subtitle per video** (correct 1:1 matching)  
-✅ **Batchable** (entire seasons / libraries)
+✅ **Batchable** (entire seasons / libraries) <BR>
 ✅ ** Use's Soft Subtitling so that they're optional and allowing you to toggle between multiple languages.
 
 
