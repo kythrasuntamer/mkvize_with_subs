@@ -1,0 +1,16 @@
+# Output folders
+mkvized_out/
+subtitles_out/
+normalized_mkv/
+with_subs/
+
+# Temp/test artifacts
+*.log
+*.tmp
+
+# PowerShell
+*.ps1xml
+
+# OS cruft
+.DS_Store
+Thumbs.db
